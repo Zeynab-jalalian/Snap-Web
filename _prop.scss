@@ -53,44 +53,58 @@ header {
         color: $white;
         @include w_h(50%, 100%);
 
-         h1 {
+        h1 {
             @include flex(left, center);
             padding-right: 260px;
             padding-left: 10px;
         }
 
-        p{
-             @include flex(left, center);
+        p {
+            @include flex(left, center);
             padding-right: 260px;
             line-height: 35px;
             font-size: 20px;
             margin: 20px 0 20px 15px;
         }
 
-        .email{
-            @include w_h(100%,auto);
-            @include flex(center,start);
+        .email {
+            @include w_h(100%, auto);
+            @include flex(center, start);
 
-            input{
-             background: $transparent;
-             border: none;
-             color: $gray_eee;
-             padding: 10px 25px;
-             font-size: 17px;
-             border-bottom: 1px solid $gray_eee;
-             margin-right: 75px;
-             margin-left: 15px;
+            input {
+                background: $transparent;
+                border: none;
+                color: $gray_eee;
+                padding: 10px 25px;
+                font-size: 17px;
+                border-bottom: 1px solid $gray_eee;
+                margin-right: 75px;
+                margin-left: 15px;
             }
-            &::placeholder{
-             color: $gray_eee;
+
+            &::placeholder {
+                color: $gray_eee;
             }
-            
-        a{
-            color: $green;
-            background: $white;
-            padding: 10px 25px;
-            border-radius: 8px;
+
+            a {
+                color: $green;
+                background: $white;
+                padding: 10px 25px;
+                border-radius: 8px;
+            }
         }
+
+        .app {
+            display: inline-block;
+            border: 2px solid $gray_eee;
+            padding: 10px 40px;
+            border-radius: 8px;
+            color: $gray_eee;
+            margin: 40px 230px;
+            transition: 0.5s;
+            &:hover{
+                background:$bg-white-opacity;
+            }
         }
 
     }

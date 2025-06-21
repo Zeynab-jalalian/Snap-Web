@@ -128,5 +128,17 @@ header ul li a {
   padding: 10px 25px;
   border-radius: 8px;
 }
+.container .main-right .app {
+  display: inline-block;
+  border: 2px solid #eee;
+  padding: 10px 40px;
+  border-radius: 8px;
+  color: #eee;
+  margin: 40px 230px;
+  transition: 0.5s;
+}
+.container .main-right .app:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
 
 /*# sourceMappingURL=style.css.map */
