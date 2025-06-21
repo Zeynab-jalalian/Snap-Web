@@ -263,7 +263,7 @@ header {
             }
 
             h3 {
-                @include w_h(100%,auto);
+                @include w_h(100%, auto);
                 margin-top: 25px;
                 margin-bottom: 5px;
                 padding: 0 36px;
@@ -273,6 +273,47 @@ header {
             p {
                 padding: 0 36px;
                 font-size: 15px;
+            }
+        }
+    }
+}
+
+section {
+    @include w_h(100%, 100%);
+    background: $gray_eee;
+
+    div {
+        @include w_h(1100px, auto);
+        margin: auto;
+        text-align: center;
+
+        h1 {
+            font-size: 35px;
+            color: $gray_4b;
+            padding-top: 40px;
+            padding-bottom: 15px;
+        }
+
+        p {
+            font-size: 20px;
+            color: $gray_63;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding: 10px 30px;
+            background: $green;
+            color: $white;
+            border-radius: 10px;
+        }
+
+        div{
+            video{
+                @include w_h(100%,auto);
+                border-radius: 10px;
+                margin-top: 40px;
             }
         }
     }
