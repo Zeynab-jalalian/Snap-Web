@@ -443,11 +443,39 @@ section div div video {
     font-size: 25px !important;
     color: #555;
     cursor: pointer;
+    order: 1;
   }
   header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .main .main-left {
+    order: 1;
+    width: 100% !important;
+  }
+  .main .main-right {
+    order: 2;
+    width: 100% !important;
+  }
+  .main .main-right h1,
+  p {
+    padding: 0 35px !important;
+  }
+  .main .main-right .email {
+    display: none;
+  }
+  .main .main-right .app {
+    color: #262626;
+    background: white;
+    padding: 10px 40px;
+    margin: 30px;
+    display: block;
+    text-align: center;
   }
 }
 
