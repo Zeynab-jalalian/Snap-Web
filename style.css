@@ -453,6 +453,7 @@ section div div video {
   .main {
     display: flex;
     flex-direction: column;
+    height: auto !important;
   }
   .main .main-left {
     order: 1;
@@ -476,6 +477,46 @@ section div div video {
     margin: 30px;
     display: block;
     text-align: center;
+  }
+  .market_img {
+    display: none !important;
+  }
+  .container .service {
+    margin: 0 !important;
+  }
+  .service .main_service {
+    width: 100% !important;
+  }
+  .main_service h1 {
+    font-size: 30px !important;
+    display: flex;
+    justify-content: start !important;
+    padding-right: 30px;
+  }
+  .main_service p {
+    display: none !important;
+  }
+  .main_service ul li a img {
+    width: 45px;
+    height: 45px;
+  }
+  .main_service ul li a div h4 {
+    color: #4a4a4a;
+    font-size: 15px !important;
+  }
+  .main_service ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 0;
+  }
+  .main_service ul li {
+    width: calc(3333.3333333% - 30px);
+  }
+  .banner_food {
+    width: 100% !important;
+    height: 250px !important;
   }
 }
 
