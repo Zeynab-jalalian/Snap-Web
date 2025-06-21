@@ -552,6 +552,17 @@ section div div video {
   section video {
     width: 90% !important;
   }
+  .end .end-box {
+    width: 100% !important;
+  }
+  .end .end-box ul li {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
