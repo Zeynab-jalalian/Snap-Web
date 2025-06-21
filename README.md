@@ -1,7 +1,7 @@
 # Snapp Web 
 
 #### ![Languages](https://img.shields.io/github/languages/count/zeynab-jalalian/Snapp-Web) :
- - ![Javascript](https://img.shields.io/badge/javascript-yellow)
+ - ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
  - ![HTML](https://img.shields.io/badge/Html-orange)
  - ![CSS](https://img.shields.io/badge/Css-blue)
    
