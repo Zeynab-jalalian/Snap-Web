@@ -102,9 +102,47 @@
         width: calc(3333.3333333% - 30px);
     }
 
-    .banner_food{
+    .banner_food {
         width: 100% !important;
-        height: 250px !important;
+        height: 220px !important;
+        padding: 0 30px;
     }
 
+    .snapp1 {
+        width: 100% !important;
+        height: 450px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 200px !important;
+    }
+
+    .snapp1 .snapp1_right {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .snapp1 .snapp1_left {
+        width: 100% !important;
+        height: auto !important;
+        padding: 25px 35px !important;
+    }
+
+    .boxes {
+        display: none !important;
+    }
+
+    section{
+        margin-top: 350px !important;
+    }
+    section div{
+        width: 100% !important;
+    }
+    section div p{
+        font-size: 15px !important;
+    }
+    section video{
+        width: 90% !important;
+    }
 }
