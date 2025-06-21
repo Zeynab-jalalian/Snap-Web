@@ -267,4 +267,45 @@ header ul li a {
   margin-top: 30px;
 }
 
+.container .boxes {
+  width: 950px;
+  height: 330px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.container .boxes .box {
+  width: calc(3333.3333333% - 50px);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  position: relative;
+  top: -100px;
+}
+.container .boxes .box div {
+  width: 270px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eee;
+  border-radius: 10px;
+}
+.container .boxes .box h3 {
+  width: 100%;
+  height: auto;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  padding: 0 36px;
+  font-size: 20px;
+}
+.container .boxes .box p {
+  padding: 0 36px;
+  font-size: 15px;
+}
+
 /*# sourceMappingURL=style.css.map */
