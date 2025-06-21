@@ -1,30 +1,97 @@
-.header{
-    @include flex(center,center);
-    @include w_h(100%,95px);
+.header {
+    @include flex(center, center);
+    @include w_h(100%, 95px);
     background: $white;
     border-bottom: 1px solid $gray_8;
 }
-header{
-    @include w_h(1200px,100%);
-    @include flex(start,center);
+
+header {
+    @include w_h(1200px, 100%);
+    @include flex(start, center);
     flex-wrap: wrap;
 
-    ul{
-        @include flex(center,center);
+    ul {
+        @include flex(center, center);
 
-        li{
+        li {
             padding: 0 15px;
-            &:nth-child(1){
+
+            &:nth-child(1) {
                 padding-right: 40px !important;
             }
 
-            a{
+            a {
                 color: $gray;
             }
         }
     }
 }
-.brand{
+
+.brand {
     font-size: 2rem;
     color: $green;
+}
+
+.container {
+    .main {
+        @include w_h(100%, 450px);
+        @include flex(center, center);
+    }
+
+    .main-left {
+        @include w_h(50%, 100%);
+        @include flex(center, center);
+
+        img {
+            @include w_h(100%, 100%);
+            object-fit: cover;
+        }
+    }
+
+    .main-right {
+        background: $green;
+        color: $white;
+        @include w_h(50%, 100%);
+
+         h1 {
+            @include flex(left, center);
+            padding-right: 260px;
+            padding-left: 10px;
+        }
+
+        p{
+             @include flex(left, center);
+            padding-right: 260px;
+            line-height: 35px;
+            font-size: 20px;
+            margin: 20px 0 20px 15px;
+        }
+
+        .email{
+            @include w_h(100%,auto);
+            @include flex(center,start);
+
+            input{
+             background: $transparent;
+             border: none;
+             color: $gray_eee;
+             padding: 10px 25px;
+             font-size: 17px;
+             border-bottom: 1px solid $gray_eee;
+             margin-right: 75px;
+             margin-left: 15px;
+            }
+            &::placeholder{
+             color: $gray_eee;
+            }
+            
+        a{
+            color: $green;
+            background: $white;
+            padding: 10px 25px;
+            border-radius: 8px;
+        }
+        }
+
+    }
 }
