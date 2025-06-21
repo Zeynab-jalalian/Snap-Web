@@ -132,3 +132,64 @@ header {
         }
     }
 }
+
+.container {
+    .service {
+        @include w_h(100%, 100%);
+        background: $gray_eee;
+        margin: 50px 0;
+
+        .main_service {
+            @include w_h(980px, auto);
+            margin: auto;
+
+            h1 {
+                @include flex(center, center);
+                @include w_h(100%, auto);
+                font-size: 40px;
+                color: $gray_4a;
+                padding-top: 30px;
+            }
+
+            ul {
+                @include flex(space-between, center);
+                @include w_h(100%, auto);
+                flex-wrap: wrap;
+
+                li {
+                    @include w_h(calc(33.3333333% - 50px), 80px);
+                    background: $white;
+                    border-radius: 20px;
+                    margin: 15px auto;
+
+                    a {
+                        @include flex(right, center);
+                        padding-right: 10px;
+                        height: 100%;
+
+                        img {
+                            @include w_h(65px, 65px);
+                        }
+
+                        div {
+                            margin-right: 10px;
+
+                            h4 {
+                                color: $gray_26;
+                                font-size: 18px;
+                            }
+
+                            p {
+                                color: $gray_8;
+                            }
+                        }
+                    }
+                }
+            }
+
+
+
+
+        }
+    }
+}
