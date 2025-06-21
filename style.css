@@ -287,7 +287,7 @@ header ul li a {
   flex-direction: column;
   margin: auto;
   position: relative;
-  top: -100px;
+  top: -20px;
 }
 .container .boxes .box div {
   width: 270px;
@@ -431,7 +431,7 @@ section div div video {
   color: #363636;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 768px) {
   .header {
     padding: 0 20px;
   }
