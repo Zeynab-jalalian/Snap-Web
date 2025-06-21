@@ -8,4 +8,23 @@ header{
     @include w_h(1200px,100%);
     @include flex(start,center);
     flex-wrap: wrap;
+
+    ul{
+        @include flex(center,center);
+
+        li{
+            padding: 0 15px;
+            &:nth-child(1){
+                padding-right: 40px !important;
+            }
+
+            a{
+                color: $gray;
+            }
+        }
+    }
+}
+.brand{
+    font-size: 2rem;
+    color: $green;
 }
