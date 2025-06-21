@@ -1,0 +1,11 @@
+.header{
+    @include flex(center,center);
+    @include w_h(100%,95px);
+    background: $white;
+    border-bottom: 1px solid $gray_8;
+}
+header{
+    @include w_h(1200px,100%);
+    @include flex(start,center);
+    flex-wrap: wrap;
+}
