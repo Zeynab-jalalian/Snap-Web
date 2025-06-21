@@ -28,8 +28,6 @@ header {
 
 }
 
-
-
 .container {
     .main {
         @include w_h(100%, 450px);
@@ -100,10 +98,37 @@ header {
             color: $gray_eee;
             margin: 40px 230px;
             transition: 0.5s;
-            &:hover{
-                background:$bg-white-opacity;
+
+            &:hover {
+                background: $bg-white-opacity;
             }
         }
 
+    }
+}
+
+.market_img {
+    @include w_h(1200px, auto);
+    @include flex(center, center);
+
+    margin: 40px auto;
+
+    ul {
+        @include flex(center, center);
+        @include w_h(100%, 100%);
+        flex-wrap: wrap;
+
+        li {
+            @include w_h(170px, 50px);
+            margin: 20px 15px;
+
+            a {
+                @include w_h(100%, 100%);
+
+                img {
+                    @include w_h(100%, 100%);
+                }
+            }
+        }
     }
 }

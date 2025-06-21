@@ -56,11 +56,6 @@ header ul li a {
   color: #666;
 }
 
-.brand {
-  font-size: 2rem;
-  color: #21aa58;
-}
-
 .container .main {
   width: 100%;
   height: 450px;
@@ -139,6 +134,36 @@ header ul li a {
 }
 .container .main-right .app:hover {
   background: rgba(255, 255, 255, 0.1);
+}
+
+.market_img {
+  width: 1200px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+}
+.market_img ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.market_img ul li {
+  width: 170px;
+  height: 50px;
+  margin: 20px 15px;
+}
+.market_img ul li a {
+  width: 100%;
+  height: 100%;
+}
+.market_img ul li a img {
+  width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
