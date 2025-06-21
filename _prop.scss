@@ -9,7 +9,9 @@ header {
     @include w_h(1200px, 100%);
     @include flex(start, center);
     flex-wrap: wrap;
-
+    span{
+        display: none !important;
+    }
     ul {
         @include flex(center, center);
 

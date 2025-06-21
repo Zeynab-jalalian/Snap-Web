@@ -1,0 +1,19 @@
+@media (max-width:650px){
+    .header{
+        padding: 0 20px;
+    }
+    header ul{
+        display: none;
+    }
+    header span{
+        display: block !important;
+        font-size: 25px !important;
+        color: #555;
+        cursor: pointer;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
