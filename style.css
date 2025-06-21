@@ -235,4 +235,36 @@ header ul li a {
   border-radius: 10px;
 }
 
+.container .snapp1 {
+  width: 100%;
+  height: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+}
+.container .snapp1 .snapp1_right {
+  width: 50%;
+  height: 100%;
+}
+.container .snapp1 .snapp1_right img {
+  width: 100%;
+  height: 100%;
+}
+.container .snapp1 .snapp1_left {
+  width: 50%;
+  height: 100%;
+  padding: 50px;
+  padding-left: 250px;
+}
+.container .snapp1 .snapp1_left h2 {
+  font-size: 30px;
+  color: #363636;
+}
+.container .snapp1 .snapp1_left p {
+  font-size: 15px;
+  color: #262626;
+  margin-top: 30px;
+}
+
 /*# sourceMappingURL=style.css.map */

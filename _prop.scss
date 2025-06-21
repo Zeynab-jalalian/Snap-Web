@@ -207,3 +207,36 @@ header {
     }
 }
 
+.container {
+    .snapp1 {
+        @include w_h(100%, 430px);
+        @include flex(center, center);
+        padding-top: 25px;
+
+        .snapp1_right {
+            @include w_h(50%, 100%);
+
+            img {
+                @include w_h(100%, 100%);
+
+            }
+        }
+
+        .snapp1_left {
+            @include w_h(50%, 100%);
+            padding: 50px;
+            padding-left: 250px;
+
+            h2 {
+                font-size: 30px;
+                color: $gray_36;
+            }
+
+            p {
+                font-size: 15px;
+                color: $gray_26;
+                margin-top: 30px;
+            }
+        }
+    }
+}
