@@ -25,12 +25,13 @@ header {
             }
         }
     }
+
+    .brand{
+        @include flex(center,center)
+    }
 }
 
-.brand {
-    font-size: 2rem;
-    color: $green;
-}
+
 
 .container {
     .main {
