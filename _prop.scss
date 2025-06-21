@@ -351,10 +351,41 @@ section {
                     font-size: 18px;
                     padding-top: 15px;
                 }
-                p{
+
+                p {
                     padding: 15px 0 15px 15px;
                 }
             }
+        }
+    }
+}
+
+.footer {
+    @include w_h(100%, 120px);
+    @include flex(center, center);
+    background: $white;
+    margin: auto;
+
+    footer {
+        @include w_h(1200px, 100%);
+        @include flex(space-between, center);
+        flex-wrap: wrap;
+
+        ul {
+            @include flex(space-between, center);
+           li{
+            padding: 0 15px;
+            a{
+                color: $gray;
+            }
+           }
+        }
+        .social{
+              @include flex(center, center);
+              li{
+                font-size: 25px;
+                color: $gray_36;
+              }
         }
     }
 }

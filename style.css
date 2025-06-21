@@ -390,4 +390,42 @@ section div div video {
   padding: 15px 0 15px 15px;
 }
 
+.footer {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  margin: auto;
+}
+.footer footer {
+  width: 1200px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer footer ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer footer ul li {
+  padding: 0 15px;
+}
+.footer footer ul li a {
+  color: #666;
+}
+.footer footer .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer footer .social li {
+  font-size: 25px;
+  color: #363636;
+}
+
 /*# sourceMappingURL=style.css.map */
