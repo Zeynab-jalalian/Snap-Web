@@ -309,11 +309,51 @@ section {
             border-radius: 10px;
         }
 
-        div{
-            video{
-                @include w_h(100%,auto);
+        div {
+            video {
+                @include w_h(100%, auto);
                 border-radius: 10px;
                 margin-top: 40px;
+            }
+        }
+    }
+}
+
+.end {
+    @include w_h(100%, 100%);
+    background: $gray_eee;
+    padding: 20px 0;
+    flex-wrap: wrap;
+
+    .end-box {
+        @include w_h(1200px, auto);
+        margin: auto;
+        flex-wrap: wrap;
+        @include flex(space-between, center);
+
+        ul {
+            @include flex(space-between, center);
+            flex-wrap: wrap;
+
+            li {
+                @include w_h(48%, auto);
+                @include flex(center, center);
+                margin: 10px;
+                padding: 20px;
+                background: $white;
+                border-radius: 10px;
+
+                img {
+                    @include w_h(130px, auto);
+                }
+
+                h2 {
+                    font-size: 18px;
+                    padding-top: 15px;
+                }
+                p{
+                    padding: 15px 0 15px 15px;
+                }
             }
         }
     }
