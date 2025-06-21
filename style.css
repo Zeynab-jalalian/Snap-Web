@@ -563,6 +563,16 @@ section div div video {
     flex-direction: column;
     text-align: center;
   }
+  .footer footer ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer footer ul li {
+    padding: 15px !important;
+  }
+  .footer footer .social {
+    width: 100% !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -133,27 +133,45 @@
         display: none !important;
     }
 
-    section{
+    section {
         margin-top: 350px !important;
     }
-    section div{
+
+    section div {
         width: 100% !important;
     }
-    section div p{
+
+    section div p {
         font-size: 15px !important;
     }
-    section video{
+
+    section video {
         width: 90% !important;
     }
-    .end .end-box{
+
+    .end .end-box {
         width: 100% !important;
     }
-    .end .end-box ul li{
+
+    .end .end-box ul li {
         width: 100% !important;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         text-align: center;
+    }
+
+    .footer footer ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer footer ul li {
+        padding: 15px !important;
+    }
+
+    .footer footer .social {
+        width: 100% !important;
     }
 }
