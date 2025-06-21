@@ -193,3 +193,15 @@ header {
         }
     }
 }
+
+.container{
+    .banner_food{
+        @include w_h(950px,350px);
+       
+        margin: 40px auto;
+        img{
+            @include w_h(100%,100%);
+             border-radius: 10px;
+        }
+    }
+}
